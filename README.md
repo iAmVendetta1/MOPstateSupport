@@ -15,6 +15,6 @@ This repository is dedicated to supporting Money Out of Politics’ mission thro
 
 ### Installation
 ```bash
-git clone https://github.com/your-org/mop-ai-data.git
-cd mop-ai-data
+git clone https://github.com/iAmVendetta1/MoneyOutOfPolitics
+cd MoneyOutOfPolitics
 pip install -r requirements.txt
