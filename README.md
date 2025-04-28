@@ -15,6 +15,6 @@ This repository hosts the choropleth map visualizing state-level support percent
 
 ### Installation
 ```bash
-git clone https://github.com/iAmVendetta1/MoneyOutOfPolitics
-cd MoneyOutOfPolitics
+git clone https://github.com/iAmVendetta1/MOPstateSupport
+cd MOPstateSupport
 pip install -r requirements.txt
