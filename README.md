@@ -1,12 +1,12 @@
-# MOP AI & Data Repository
-
+# Money Out of Politics - U.S. Choropleth Map
 ## Overview
-This repository is dedicated to supporting Money Out of Politics’ mission through open-source AI and data-driven solutions. We aim to provide accessible tools, datasets, and models that empower communities and drive positive change.
+This repository hosts the choropleth map visualizing state-level support percentages for Money Out of Politics’ mission. The interactive heatmap provides a clear, data-driven representation of support across the United States, helping stakeholders analyze regional trends and public sentiment.
 
-## Features
-- AI-powered analytics and visualization tools
-- Public datasets for research and development
-- Open-source models for nonprofit applications
+### Features
+- State-Level Data Visualization: Displays percentage of support by state.
+- Custom Colormaps: Optimized for clarity and impact.
+- Albers Equal Area Projection: Ensures proportional representation of U.S. states.
+- Refined Layout: Adjustments to Alaska and Hawaii for visual balance.
 
 ## Getting Started
 ### Prerequisites
