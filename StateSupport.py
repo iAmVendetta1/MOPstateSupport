@@ -4,10 +4,13 @@ import matplotlib.pyplot as plt
 import geopandas as gpd
 import us
 
-support = pd.read_csv('MOPdata.csv', sep=',')
+support = pd.read_csv('MOPDataNew.csv', sep=',')
 
-support_data = round(support.groupby('State/Territory').size() / len(support) * 100, 2)
-support_df = support_data.reset_index(name='Support Percentage')
+# Rename column for clarity
+support_df = support.rename(columns={"#": "Support Count"})
+
+# Compute support percentage
+support_df["Support Percentage"] = round(support_df["Support Count"] / support_df["Support Count"].sum() * 100, 2)
 
 state_abbr_map = {state.name: state.abbr for state in us.states.STATES}
 support_df["State/Territory"] = support_df["State/Territory"].map(state_abbr_map)
